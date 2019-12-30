@@ -33,5 +33,8 @@ dependencies {
     implementation(Libraries.appCompat)
     implementation(Libraries.coreKTX)
     testImplementation(Testing.jUnit)
+    testImplementation(Testing.robolectric)
+    testImplementation(Testing.kluent)
+    testImplementation(Testing.mockk)
     androidTestImplementation(Testing.espressoCore)
 }
