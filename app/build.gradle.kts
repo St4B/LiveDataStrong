@@ -29,6 +29,7 @@ android {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
+    implementation(project(":livedatastrong"))
     implementation(Libraries.constraintLayout)
     implementation(Libraries.kotlin)
     implementation(Libraries.appCompat)
