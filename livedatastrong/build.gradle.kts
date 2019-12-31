@@ -30,6 +30,8 @@ android {
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(Libraries.kotlin)
+    implementation(Libraries.coroutines)
+    implementation(Libraries.coroutinesAndroid)
     implementation(Libraries.appCompat)
     implementation(Libraries.coreKTX)
     testImplementation(Testing.jUnit)

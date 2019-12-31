@@ -32,6 +32,8 @@ dependencies {
     implementation(Libraries.kotlin)
     implementation(Libraries.appCompat)
     implementation(Libraries.coreKTX)
+    implementation(Libraries.coroutines)
+    implementation(Libraries.coroutinesAndroid)
     testImplementation(Testing.jUnit)
     androidTestImplementation(Testing.espressoCore)
 }
