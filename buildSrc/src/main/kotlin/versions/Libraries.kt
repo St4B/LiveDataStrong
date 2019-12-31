@@ -1,6 +1,7 @@
 package versions
 
 import versions.Libraries.Versions.appCompatVersion
+import versions.Libraries.Versions.constraintLayoutVersion
 import versions.Libraries.Versions.coroutinesVersion
 import versions.Libraries.Versions.kotlinVersion
 import versions.Libraries.Versions.lifecycleVersion
@@ -17,6 +18,8 @@ object Libraries {
 
         const val lifecycleVersion = "2.1.0"
 
+        const val constraintLayoutVersion = "1.1.3"
+
     }
 
     const val kotlin = "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
@@ -30,5 +33,7 @@ object Libraries {
     const val coreKTX = "androidx.core:core-ktx:$appCompatVersion"
 
     const val lifecycle = "androidx.lifecycle:lifecycle-livedata:$lifecycleVersion"
+
+    const val constraintLayout = "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
 
 }
