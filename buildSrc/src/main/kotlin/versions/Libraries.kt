@@ -3,6 +3,7 @@ package versions
 import versions.Libraries.Versions.appCompatVersion
 import versions.Libraries.Versions.coroutinesVersion
 import versions.Libraries.Versions.kotlinVersion
+import versions.Libraries.Versions.lifecycleVersion
 
 object Libraries {
 
@@ -13,6 +14,8 @@ object Libraries {
         const val coroutinesVersion = "1.3.3"
 
         const val appCompatVersion = "1.1.0"
+
+        const val lifecycleVersion = "2.1.0"
 
     }
 
@@ -25,5 +28,7 @@ object Libraries {
     const val appCompat = "androidx.appcompat:appcompat:$appCompatVersion"
 
     const val coreKTX = "androidx.core:core-ktx:$appCompatVersion"
+
+    const val lifecycle = "androidx.lifecycle:lifecycle-livedata:$lifecycleVersion"
 
 }
