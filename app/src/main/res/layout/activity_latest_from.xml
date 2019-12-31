@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/input_first_source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First source"
+        android:singleLine="true"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_second_source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Second source"
+        android:singleLine="true"
+        app:layout_constraintTop_toBottomOf="@id/input_first_source" />
+
+    <Button
+        android:id="@+id/button_post_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post First"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_second_source" />
+
+    <Button
+        android:id="@+id/button_post_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Second"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_second_source" />
+
+    <TextView
+        android:id="@+id/text_result_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/button_post_first"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
